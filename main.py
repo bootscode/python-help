@@ -1,16 +1,31 @@
-# This is a sample Python script.
+# This is a python cheatsheet
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#Data types
+int = 5
+float = 5.0
+str = "I went to the store"
+Bool = True or False
 
+# Lists
+#List of groceries to buy
+groceries = ["Pepper, Apple, Orange"]
+#methods can be applied to lists:
+groceries.append("Jake") # Add item to end of list
+groceries.count() #Count items in the list with specified value, if there one item given as characters in word
+groceries.clear() # Clears all elements from list
+groceries.copy() # Returns a copy of the list
+groceries.extend() # Add elements of any iterable(list, dictionaries, string) to current list
+groceries.index() # Returns the index with the first item with the specified value
+groceries.remove() #  Removes the first item with the specified value
+groceries.reverse() #  Reverses list order
+groceries.order() # Sorts the list in aplhanumerical order - does capital letters first
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Dictionaries
 
+# Functions
+# When creating a function we must define it like so:
+def calculate(number):
+    print(number + 2)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+calculate(5)
+# Will print 7
